@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text" id="userName">
+    <button id="btn">jQuery版 提交</button>
+    <script src="../scripts/jq.js"></script>
+<script>
+    $(function () {
+        $("#btn").click( function () {
+          let $userName = $("#userName").val();
+          alert($userName);
+        })
+    })
+
+</script>
+</body>
+</html>
